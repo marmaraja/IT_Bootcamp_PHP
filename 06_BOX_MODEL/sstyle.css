@@ -1,0 +1,15 @@
+#levo {
+    border: 1px solid black;
+    width: 250px;
+    height: 30px;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 10px;
+}
+#desno {
+    border: 1px solid black;
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    padding: 10px;
+}

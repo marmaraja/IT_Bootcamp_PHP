@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.php" method="get">
+        <fieldset>
+            <legend>Form validation</legend>
+            <p>
+                <label form="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label form="username">Username: </label>
+                <input type="text" name="username" id="username">
+            </p>
+            <p>
+                <label for="pass">Pasword: </label>
+                <input type="password" name="pass" id="pass">
+            </p>
+            <p>
+                <label for="pass">Re-type password: </label>
+                <input type="password" name="re-pass" id="re-pass">
+            </p>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+            <input type="radio" name="gender" id="Other" value="other">Other
+        </p>
+        <p>
+            <label for="course">Programming skils: </label>
+            <input type="checkbox" name="java" id="true"> Java
+            <input type="checkbox" name="Android" id="true"> Android
+            <input type="checkbox" name="Ruby" id="true"> Ruby
+            <input type="checkbox" name=".net" id="true"> .Net
+        </p>
+        <p>
+            <label for="contact">Contact no: </label>
+            <input type="number" name="number" id="number">
+        </p>
+        <p>
+            <label for="Email">Email: </label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="college">College: </label>
+            <select name="college">
+                <option value="Beograd">Beograd</option>
+                <option value="Nis">Nis</option>
+                <option value="Novi Sad">Novi Sad</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Submit" id="submit">
+        </p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
